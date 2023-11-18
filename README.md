@@ -7,7 +7,9 @@ Chat application using GO Lang, React and Redis
 - [Free Redis Cloud Account](https://redis.com/try-free/)
 - Node Js
 
-## Installation
+### Installation
+## Way 1 
+
 
 1. Clone the repository:
 
@@ -50,7 +52,28 @@ Chat application using GO Lang, React and Redis
      ```bash
      npm start
      ```
-     
+
+## Way 2 
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/jiteshchawla1511/chat-App.git
+   ```
+
+2. Configure the .env file
+   
+3. Run the docker file
+   ```bash
+   docker-compose up
+   ```
+
+4. You can access the frontend at
+   ```
+   http://localhost:3000
+   ```
+
+
      
 ##  Explanation
 
